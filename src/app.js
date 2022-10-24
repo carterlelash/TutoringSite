@@ -21,6 +21,6 @@ server.listen(port, function(error) {
         console.log("Something went wrong")
     }
     else {
-        console.log("Server is listening on port" + port)
+        console.log("Server is listening on port: " + port)
     }
 })
